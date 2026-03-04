@@ -1,0 +1,670 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Pawsitive Care Veterinary Clinic",
+          "path": "/homepage",
+          "heroTitle": "Compassionate Care for Your Best Friend",
+          "heroSubtitle": "Pawsitive Care Veterinary Clinic",
+          "heroDescription": {
+            "processed": "<p>Your pet is family, and they deserve the best. Our team of experienced veterinarians and technicians provides comprehensive, compassionate care for dogs, cats, birds, rabbits, and exotic pets in a fear-free environment.</p>",
+            "summary": "Your pet is family, and they deserve the best. Our team of experienced veterinarians and technicians provides comprehensive, compassionate care for dogs, cats, birds, rabbits, and exotic pets in a fea"
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
+            "alt": "Happy golden retriever and border collie playing in a park",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-pets",
+              "title": "",
+              "number": "20,000+",
+              "label": "Pets Treated"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "18",
+              "label": "Years Serving Our Community"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-team",
+              "title": "",
+              "number": "15",
+              "label": "Dedicated Team Members"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-rating",
+              "title": "",
+              "number": "4.9",
+              "label": "Average Star Rating"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Book Your Pet's Visit",
+          "ctaDescription": {
+            "processed": "<p>Whether it's time for a routine checkup, vaccinations, or you have concerns about your pet's health, we're here to help. New clients and their furry, feathered, or scaled companions are always welcome.</p>",
+            "summary": "Whether it's time for a routine checkup, vaccinations, or you have concerns about your pet's health, we're here to help. New clients and their furry, feathered, or scaled companions are always welcome"
+          },
+          "ctaPrimary": "Schedule Appointment",
+          "ctaSecondary": "Emergency Care"
+        }
+      }
+    }
+  },
+  "/services/wellness-exams": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-wellness",
+          "title": "Wellness Exams & Vaccinations",
+          "path": "/services/wellness-exams",
+          "body": {
+            "processed": "<p>Annual wellness exams are the cornerstone of your pet's preventive health care. During each visit, your veterinarian conducts a thorough nose-to-tail examination, checking your pet's weight, heart, lungs, eyes, ears, teeth, skin, and joints for any signs of health concerns.</p><h2>What's Included</h2><ul><li>Comprehensive physical examination</li><li>Weight assessment and body condition scoring</li><li>Vaccination updates tailored to your pet's lifestyle and risk factors</li><li>Parasite screening (heartworm, intestinal parasites, tick-borne diseases)</li><li>Dental health evaluation</li><li>Nutrition and behavior counseling</li><li>Age-appropriate blood work recommendations</li></ul><h2>Puppy & Kitten Packages</h2><p>We offer bundled wellness packages for puppies and kittens that include all recommended vaccinations, deworming, microchipping, and spay/neuter surgery at a discounted rate. Ask our team for details.</p>",
+            "summary": "Annual wellness exams are the cornerstone of your pet's preventive health care. During each visit, your veterinarian conducts a thorough nose-to-tail examination, checking your pet's weight, heart, lu"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+            "alt": "Veterinarian examining a friendly golden retriever puppy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Comprehensive annual exams and customized vaccination protocols to keep your pet healthy at every stage of life.</p>",
+            "summary": "Comprehensive annual exams and customized vaccination protocols to keep your pet healthy at every stage of life."
+          },
+          "petTypes": [
+            "Dogs",
+            "Cats",
+            "Rabbits",
+            "Birds",
+            "Small Mammals"
+          ],
+          "serviceCategory": [
+            {
+              "id": "Wellness & Prevention",
+              "name": "Wellness & Prevention"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/services/surgery": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-surgery",
+          "title": "Surgical Services",
+          "path": "/services/surgery",
+          "body": {
+            "processed": "<p>Our clinic is equipped with a modern surgical suite featuring advanced monitoring equipment, allowing us to perform a wide range of soft tissue and orthopedic procedures safely and efficiently. Every surgical patient receives individualized anesthesia protocols, continuous monitoring, and comprehensive pain management.</p><h2>Procedures We Offer</h2><ul><li>Spay and neuter (including laparoscopic options)</li><li>Soft tissue surgery (mass removal, bladder stone removal, wound repair)</li><li>Orthopedic surgery (cruciate ligament repair, fracture stabilization)</li><li>Dental extractions and oral surgery</li><li>Emergency surgery for trauma and foreign body removal</li></ul><h2>Safety & Comfort</h2><p>We use the safest available anesthetic protocols, tailored to each patient's age, breed, and health status. Continuous monitoring includes ECG, blood pressure, pulse oximetry, capnography, and body temperature. Every surgical patient goes home with a multimodal pain management plan.</p>",
+            "summary": "Our clinic is equipped with a modern surgical suite featuring advanced monitoring equipment, allowing us to perform a wide range of soft tissue and orthopedic procedures safely and efficiently. Every "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=800&q=80",
+            "alt": "Modern veterinary surgical suite with monitoring equipment",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Safe, expert surgical care from routine spay and neuter to advanced orthopedic and soft tissue procedures.</p>",
+            "summary": "Safe, expert surgical care from routine spay and neuter to advanced orthopedic and soft tissue procedures."
+          },
+          "petTypes": [
+            "Dogs",
+            "Cats",
+            "Rabbits"
+          ],
+          "serviceCategory": [
+            {
+              "id": "Surgery",
+              "name": "Surgery"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/services/pet-dental-care": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-dental",
+          "title": "Pet Dental Care",
+          "path": "/services/pet-dental-care",
+          "body": {
+            "processed": "<p>Dental disease is one of the most common health problems in pets, affecting over 80% of dogs and 70% of cats by age three. Left untreated, dental disease causes pain, difficulty eating, and can lead to serious infections affecting the heart, kidneys, and liver.</p><h2>Our Dental Services</h2><ul><li>Comprehensive oral examinations</li><li>Digital dental X-rays to assess tooth roots and bone</li><li>Professional dental cleaning (scaling and polishing) under anesthesia</li><li>Tooth extractions when necessary</li><li>Treatment of oral masses and injuries</li><li>At-home dental care coaching for pet owners</li></ul><h2>Signs of Dental Disease</h2><p>Watch for these warning signs in your pet:</p><ul><li>Bad breath</li><li>Red, swollen, or bleeding gums</li><li>Difficulty eating or dropping food</li><li>Pawing at the mouth</li><li>Loose or discolored teeth</li><li>Excessive drooling</li></ul><p>We recommend annual dental evaluations as part of your pet's wellness visit.</p>",
+            "summary": "Dental disease is one of the most common health problems in pets, affecting over 80% of dogs and 70% of cats by age three. Left untreated, dental disease causes pain, difficulty eating, and can lead t"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+            "alt": "Veterinarian gently examining a dog's teeth",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Professional dental cleanings, digital X-rays, and oral surgery to keep your pet's teeth and gums healthy.</p>",
+            "summary": "Professional dental cleanings, digital X-rays, and oral surgery to keep your pet's teeth and gums healthy."
+          },
+          "petTypes": [
+            "Dogs",
+            "Cats"
+          ],
+          "serviceCategory": [
+            {
+              "id": "Dentistry",
+              "name": "Dentistry"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/team/dr-sofia-martinez": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProvider",
+          "id": "provider-martinez",
+          "title": "Dr. Sofia Martinez, DVM",
+          "path": "/team/dr-sofia-martinez",
+          "body": {
+            "processed": "<p>Dr. Sofia Martinez founded Pawsitive Care Veterinary Clinic in 2008 with a simple mission: to provide the highest quality veterinary medicine in an environment where both pets and their people feel comfortable and cared for. Her warm demeanor and clinical expertise have earned the trust of thousands of families in the community.</p><p>Dr. Martinez has a special interest in internal medicine and geriatric care, helping senior pets maintain quality of life through their golden years. She is certified in veterinary acupuncture and integrates complementary therapies when appropriate.</p><p>At home, Dr. Martinez shares her life with two rescue cats named Olive and Fig, and a three-legged greyhound named Zephyr.</p>",
+            "summary": "Dr. Sofia Martinez founded Pawsitive Care Veterinary Clinic in 2008 with a simple mission: to provide the highest quality veterinary medicine in an environment where both pets and their people feel co"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+            "alt": "Dr. Sofia Martinez, veterinarian, professional portrait",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "credentials": "DVM, CVA",
+          "specialty": "Internal Medicine & Senior Pet Care",
+          "education": {
+            "processed": "<p>Doctor of Veterinary Medicine, Colorado State University<br>Certified Veterinary Acupuncturist, Chi University<br>Bachelor of Science in Animal Science, UC Davis</p>",
+            "summary": "Doctor of Veterinary Medicine, Colorado State UniversityCertified Veterinary Acupuncturist, Chi UniversityBachelor of Science in Animal Science, UC Davis"
+          },
+          "favoriteAnimals": "Senior pets of all kinds",
+          "acceptingPatients": true,
+          "providerRole": [
+            {
+              "id": "Veterinarian",
+              "name": "Veterinarian"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/team/dr-emeka-okafor": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProvider",
+          "id": "provider-okafor",
+          "title": "Dr. Emeka Okafor, DVM, DACVS",
+          "path": "/team/dr-emeka-okafor",
+          "body": {
+            "processed": "<p>Dr. Emeka Okafor is a board-certified veterinary surgeon who brings advanced surgical expertise to Pawsitive Care. After completing a rigorous three-year surgical residency at the University of Georgia Veterinary Teaching Hospital, he joined the clinic in 2016.</p><p>Dr. Okafor specializes in orthopedic procedures, including cruciate ligament repair (TPLO), fracture repair, and joint replacement surgery. He also performs complex soft tissue surgeries and minimally invasive laparoscopic procedures.</p><p>He is passionate about continuing education and regularly mentors veterinary students during their clinical rotations. In his spare time, he enjoys trail running with his Rhodesian Ridgeback, Atlas.</p>",
+            "summary": "Dr. Emeka Okafor is a board-certified veterinary surgeon who brings advanced surgical expertise to Pawsitive Care. After completing a rigorous three-year surgical residency at the University of Georgi"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+            "alt": "Dr. Emeka Okafor, veterinary surgeon, professional portrait",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "credentials": "DVM, DACVS",
+          "specialty": "Orthopedic & Soft Tissue Surgery",
+          "education": {
+            "processed": "<p>Doctor of Veterinary Medicine, Tuskegee University<br>Surgical Residency, University of Georgia<br>Diplomate, American College of Veterinary Surgeons</p>",
+            "summary": "Doctor of Veterinary Medicine, Tuskegee UniversitySurgical Residency, University of GeorgiaDiplomate, American College of Veterinary Surgeons"
+          },
+          "favoriteAnimals": "Large breed dogs",
+          "acceptingPatients": true,
+          "providerRole": [
+            {
+              "id": "Veterinary Surgeon",
+              "name": "Veterinary Surgeon"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/team/dr-yuki-tanaka": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProvider",
+          "id": "provider-tanaka",
+          "title": "Dr. Yuki Tanaka, DVM",
+          "path": "/team/dr-yuki-tanaka",
+          "body": {
+            "processed": "<p>Dr. Yuki Tanaka is Pawsitive Care's avian and exotic animal specialist. With advanced training in the care of birds, reptiles, rabbits, and small mammals, she fills a critical need in the community for expert exotic pet veterinary care.</p><p>Dr. Tanaka completed an internship in avian and exotic medicine at the University of Tennessee and has published research on nutritional management of companion parrots. She is an active member of the Association of Avian Veterinarians and the Association of Exotic Mammal Veterinarians.</p><p>Her personal menagerie includes a blue-and-gold macaw named Kiku, a bearded dragon named Mochi, and two Holland Lop rabbits.</p>",
+            "summary": "Dr. Yuki Tanaka is Pawsitive Care's avian and exotic animal specialist. With advanced training in the care of birds, reptiles, rabbits, and small mammals, she fills a critical need in the community fo"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800&q=80",
+            "alt": "Dr. Yuki Tanaka, exotic animal veterinarian, professional portrait",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "credentials": "DVM",
+          "specialty": "Avian & Exotic Animal Medicine",
+          "education": {
+            "processed": "<p>Doctor of Veterinary Medicine, University of California, Davis<br>Internship in Avian & Exotic Medicine, University of Tennessee<br>Bachelor of Science in Zoology, University of Washington</p>",
+            "summary": "Doctor of Veterinary Medicine, University of California, DavisInternship in Avian & Exotic Medicine, University of TennesseeBachelor of Science in Zoology, University of Washington"
+          },
+          "favoriteAnimals": "Parrots and rabbits",
+          "acceptingPatients": true,
+          "providerRole": [
+            {
+              "id": "Veterinarian",
+              "name": "Veterinarian"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/resources/new-puppy-owners-guide": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePetResource",
+          "id": "resource-puppy-guide",
+          "title": "The Complete New Puppy Owner's Guide",
+          "path": "/resources/new-puppy-owners-guide",
+          "body": {
+            "processed": "<p>Congratulations on your new puppy! Bringing a puppy into your home is one of life's great joys, but it also comes with responsibilities. This guide covers everything you need to know to give your new companion the best possible start.</p><h2>First Veterinary Visit</h2><p>Schedule your puppy's first veterinary exam within the first week of bringing them home. Even if your breeder or shelter provided initial vaccinations, your veterinarian needs to perform a comprehensive health assessment and create a customized preventive care plan.</p><h2>Vaccination Schedule</h2><ul><li><strong>6-8 weeks:</strong> Distemper, parvovirus (first dose)</li><li><strong>10-12 weeks:</strong> DHPP booster, Bordetella</li><li><strong>14-16 weeks:</strong> DHPP final booster, rabies</li><li><strong>12-16 weeks:</strong> Leptospirosis, Lyme (based on lifestyle risk)</li></ul><h2>Nutrition</h2><p>Feed a high-quality puppy food appropriate for your dog's expected adult size. Large breed puppies require diets formulated to support controlled growth and joint health. Feed three meals a day until six months of age, then transition to twice daily.</p><h2>Socialization</h2><p>The critical socialization window closes around 16 weeks of age. Safely expose your puppy to a variety of people, animals, sounds, and environments during this period to help them grow into a confident, well-adjusted adult dog.</p>",
+            "summary": "Congratulations on your new puppy! Bringing a puppy into your home is one of life's great joys, but it also comes with responsibilities. This guide covers everything you need to know to give your new "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+            "alt": "Adorable puppy sitting on a grassy lawn",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Everything new puppy owners need to know about veterinary care, vaccinations, nutrition, and socialization.</p>",
+            "summary": "Everything new puppy owners need to know about veterinary care, vaccinations, nutrition, and socialization."
+          },
+          "petType": [
+            {
+              "id": "Dogs",
+              "name": "Dogs"
+            }
+          ],
+          "resourceCategory": [
+            {
+              "id": "New Pet Owner",
+              "name": "New Pet Owner"
+            },
+            {
+              "id": "Health & Wellness",
+              "name": "Health & Wellness"
+            }
+          ],
+          "authorName": "Dr. Sofia Martinez",
+          "publishedDate": {
+            "timestamp": 1760504400
+          }
+        }
+      }
+    }
+  },
+  "/resources/keeping-indoor-cats-happy": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePetResource",
+          "id": "resource-cat-indoor",
+          "title": "Keeping Your Indoor Cat Happy and Healthy",
+          "path": "/resources/keeping-indoor-cats-happy",
+          "body": {
+            "processed": "<p>Indoor cats live significantly longer than outdoor cats, but they need environmental enrichment to stay physically and mentally healthy. A bored indoor cat can develop behavior problems, obesity, and stress-related illnesses. Here's how to create a stimulating indoor environment.</p><h2>Environmental Enrichment</h2><ul><li><strong>Vertical space:</strong> Cat trees, shelves, and window perches satisfy your cat's natural desire to climb and survey their territory from above</li><li><strong>Window views:</strong> Place perches near windows so your cat can watch birds, squirrels, and outdoor activity</li><li><strong>Scratching surfaces:</strong> Provide multiple scratching posts and pads in both vertical and horizontal orientations</li><li><strong>Hiding spots:</strong> Cardboard boxes, cat tunnels, and covered beds give cats a sense of security</li></ul><h2>Interactive Play</h2><p>Dedicate at least 15-20 minutes twice a day to interactive play with wand toys, laser pointers, or feather toys. This simulates the hunt-catch-eat cycle and provides essential exercise.</p><h2>Food Puzzles</h2><p>Replace your cat's food bowl with puzzle feeders to stimulate their brain and slow down eating. Start with easy puzzles and increase the difficulty as your cat gets the hang of it.</p><h2>Multi-Cat Households</h2><p>If you have multiple cats, provide at least one litter box per cat plus one extra, separate feeding stations, and enough vertical space so every cat has access to high perching spots.</p>",
+            "summary": "Indoor cats live significantly longer than outdoor cats, but they need environmental enrichment to stay physically and mentally healthy. A bored indoor cat can develop behavior problems, obesity, and "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+            "alt": "Content tabby cat relaxing on a sunny window perch",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Tips for creating a stimulating indoor environment that keeps your cat physically active and mentally engaged.</p>",
+            "summary": "Tips for creating a stimulating indoor environment that keeps your cat physically active and mentally engaged."
+          },
+          "petType": [
+            {
+              "id": "Cats",
+              "name": "Cats"
+            }
+          ],
+          "resourceCategory": [
+            {
+              "id": "Behavior",
+              "name": "Behavior"
+            },
+            {
+              "id": "Health & Wellness",
+              "name": "Health & Wellness"
+            }
+          ],
+          "authorName": "Dr. Sofia Martinez",
+          "publishedDate": {
+            "timestamp": 1764568800
+          }
+        }
+      }
+    }
+  },
+  "/resources/summer-pet-safety": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePetResource",
+          "id": "resource-summer-safety",
+          "title": "Summer Safety Tips for Pet Owners",
+          "path": "/resources/summer-pet-safety",
+          "body": {
+            "processed": "<p>Summer brings special hazards for our pets. From heatstroke to toxic plants, here are the most important things to know to keep your animals safe during the warm months.</p><h2>Preventing Heatstroke</h2><ul><li>Never leave your pet in a parked car, even with windows cracked - interior temperatures can reach lethal levels in minutes</li><li>Walk dogs during cooler morning and evening hours</li><li>Test pavement with the back of your hand - if it's too hot for you, it's too hot for paw pads</li><li>Provide constant access to fresh, cool water</li><li>Watch for signs of overheating: excessive panting, drooling, lethargy, vomiting</li></ul><h2>Water Safety</h2><p>Not all dogs are natural swimmers. Always supervise your pet around pools, lakes, and oceans. Consider a pet life jacket for boating. Rinse your dog after swimming to remove chlorine, salt, or algae.</p><h2>Fleas, Ticks & Heartworm</h2><p>Summer is peak season for parasites. Ensure your pet is current on flea, tick, and heartworm prevention. Check for ticks after every outdoor adventure, paying special attention to ears, armpits, and between toes.</p><h2>Toxic Plants & Foods</h2><p>Many common summer foods and plants are toxic to pets. Keep your animals away from grapes, onions, chocolate, xylitol (artificial sweetener), lilies, sago palms, and mushrooms that may grow in your yard.</p>",
+            "summary": "Summer brings special hazards for our pets. From heatstroke to toxic plants, here are the most important things to know to keep your animals safe during the warm months.Preventing HeatstrokeNever leav"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=800&q=80",
+            "alt": "Dog cooling off by splashing in a shallow stream",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Essential tips for protecting your pet from heatstroke, parasites, and other summer hazards.</p>",
+            "summary": "Essential tips for protecting your pet from heatstroke, parasites, and other summer hazards."
+          },
+          "petType": [
+            {
+              "id": "Dogs",
+              "name": "Dogs"
+            },
+            {
+              "id": "Cats",
+              "name": "Cats"
+            }
+          ],
+          "resourceCategory": [
+            {
+              "id": "Seasonal Care",
+              "name": "Seasonal Care"
+            },
+            {
+              "id": "Health & Wellness",
+              "name": "Health & Wellness"
+            }
+          ],
+          "authorName": "Dr. Emeka Okafor",
+          "publishedDate": {
+            "timestamp": 1768888800
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Pawsitive Care",
+          "path": "/about",
+          "body": {
+            "processed": "<h2>Our Mission</h2><p>Pawsitive Care Veterinary Clinic is dedicated to providing exceptional medical care for companion animals in a warm, fear-free environment. We treat every pet as if they were our own, combining clinical excellence with genuine compassion.</p><h2>Our Facility</h2><p>Our 6,000-square-foot clinic was designed with your pet's comfort in mind. Features include separate dog and cat waiting areas, quiet examination rooms, a state-of-the-art surgical suite, in-house laboratory, digital radiography, and ultrasound capabilities.</p><h2>Fear-Free Certified</h2><p>We are a Fear-Free Certified Practice, meaning our team is specially trained to minimize stress, anxiety, and fear in our patients. From low-stress handling techniques to calming pheromone diffusers in every room, we do everything possible to make veterinary visits a positive experience.</p><h2>Community Involvement</h2><p>We are proud partners of the local humane society, providing discounted veterinary care for adopted pets and volunteering our time at community spay/neuter clinics. We also sponsor the annual Bark in the Park fundraiser and host free pet first aid workshops throughout the year.</p>",
+            "summary": "Our MissionPawsitive Care Veterinary Clinic is dedicated to providing exceptional medical care for companion animals in a warm, fear-free environment. We treat every pet as if they were our own, combi"
+          }
+        }
+      }
+    }
+  },
+  "/emergency": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-emergency",
+          "title": "Emergency & Urgent Care",
+          "path": "/emergency",
+          "body": {
+            "processed": "<h2>Emergency Hours</h2><p>Pawsitive Care provides emergency veterinary services during our extended hours:</p><ul><li>Monday - Friday: 7:00 AM - 9:00 PM</li><li>Saturday: 8:00 AM - 5:00 PM</li><li>Sunday: 10:00 AM - 4:00 PM</li></ul><p>For after-hours emergencies, please contact Metro Emergency Animal Hospital at (555) 999-PETS.</p><h2>When to Seek Emergency Care</h2><p>Bring your pet in immediately if you observe any of the following:</p><ul><li>Difficulty breathing or choking</li><li>Suspected poisoning or ingestion of a toxic substance</li><li>Trauma from a vehicle accident or fall</li><li>Seizures or sudden collapse</li><li>Uncontrolled bleeding</li><li>Bloated or distended abdomen (especially in large breed dogs)</li><li>Inability to urinate (especially in male cats)</li><li>Signs of extreme pain: crying, inability to move, aggression when touched</li></ul><h2>What to Bring</h2><ul><li>Your pet's medical records or the name of their regular veterinarian</li><li>Any medications your pet is currently taking</li><li>Information about what your pet may have ingested (bring the container if possible)</li></ul>",
+            "summary": "Emergency HoursPawsitive Care provides emergency veterinary services during our extended hours:Monday - Friday: 7:00 AM - 9:00 PMSaturday: 8:00 AM - 5:00 PMSunday: 10:00 AM - 4:00 PMFor after-hours em"
+          }
+        }
+      }
+    }
+  }
+}

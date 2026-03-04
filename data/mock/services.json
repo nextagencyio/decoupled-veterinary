@@ -1,0 +1,163 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-wellness",
+          "title": "Wellness Exams & Vaccinations",
+          "path": "/services/wellness-exams",
+          "body": {
+            "processed": "<p>Annual wellness exams are the cornerstone of your pet's preventive health care. During each visit, your veterinarian conducts a thorough nose-to-tail examination, checking your pet's weight, heart, lungs, eyes, ears, teeth, skin, and joints for any signs of health concerns.</p><h2>What's Included</h2><ul><li>Comprehensive physical examination</li><li>Weight assessment and body condition scoring</li><li>Vaccination updates tailored to your pet's lifestyle and risk factors</li><li>Parasite screening (heartworm, intestinal parasites, tick-borne diseases)</li><li>Dental health evaluation</li><li>Nutrition and behavior counseling</li><li>Age-appropriate blood work recommendations</li></ul><h2>Puppy & Kitten Packages</h2><p>We offer bundled wellness packages for puppies and kittens that include all recommended vaccinations, deworming, microchipping, and spay/neuter surgery at a discounted rate. Ask our team for details.</p>",
+            "summary": "Annual wellness exams are the cornerstone of your pet's preventive health care. During each visit, your veterinarian conducts a thorough nose-to-tail examination, checking your pet's weight, heart, lu"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+            "alt": "Veterinarian examining a friendly golden retriever puppy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Comprehensive annual exams and customized vaccination protocols to keep your pet healthy at every stage of life.</p>",
+            "summary": "Comprehensive annual exams and customized vaccination protocols to keep your pet healthy at every stage of life."
+          },
+          "petTypes": [
+            "Dogs",
+            "Cats",
+            "Rabbits",
+            "Birds",
+            "Small Mammals"
+          ],
+          "serviceCategory": [
+            {
+              "id": "Wellness & Prevention",
+              "name": "Wellness & Prevention"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-surgery",
+          "title": "Surgical Services",
+          "path": "/services/surgery",
+          "body": {
+            "processed": "<p>Our clinic is equipped with a modern surgical suite featuring advanced monitoring equipment, allowing us to perform a wide range of soft tissue and orthopedic procedures safely and efficiently. Every surgical patient receives individualized anesthesia protocols, continuous monitoring, and comprehensive pain management.</p><h2>Procedures We Offer</h2><ul><li>Spay and neuter (including laparoscopic options)</li><li>Soft tissue surgery (mass removal, bladder stone removal, wound repair)</li><li>Orthopedic surgery (cruciate ligament repair, fracture stabilization)</li><li>Dental extractions and oral surgery</li><li>Emergency surgery for trauma and foreign body removal</li></ul><h2>Safety & Comfort</h2><p>We use the safest available anesthetic protocols, tailored to each patient's age, breed, and health status. Continuous monitoring includes ECG, blood pressure, pulse oximetry, capnography, and body temperature. Every surgical patient goes home with a multimodal pain management plan.</p>",
+            "summary": "Our clinic is equipped with a modern surgical suite featuring advanced monitoring equipment, allowing us to perform a wide range of soft tissue and orthopedic procedures safely and efficiently. Every "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=800&q=80",
+            "alt": "Modern veterinary surgical suite with monitoring equipment",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Safe, expert surgical care from routine spay and neuter to advanced orthopedic and soft tissue procedures.</p>",
+            "summary": "Safe, expert surgical care from routine spay and neuter to advanced orthopedic and soft tissue procedures."
+          },
+          "petTypes": [
+            "Dogs",
+            "Cats",
+            "Rabbits"
+          ],
+          "serviceCategory": [
+            {
+              "id": "Surgery",
+              "name": "Surgery"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-dental",
+          "title": "Pet Dental Care",
+          "path": "/services/pet-dental-care",
+          "body": {
+            "processed": "<p>Dental disease is one of the most common health problems in pets, affecting over 80% of dogs and 70% of cats by age three. Left untreated, dental disease causes pain, difficulty eating, and can lead to serious infections affecting the heart, kidneys, and liver.</p><h2>Our Dental Services</h2><ul><li>Comprehensive oral examinations</li><li>Digital dental X-rays to assess tooth roots and bone</li><li>Professional dental cleaning (scaling and polishing) under anesthesia</li><li>Tooth extractions when necessary</li><li>Treatment of oral masses and injuries</li><li>At-home dental care coaching for pet owners</li></ul><h2>Signs of Dental Disease</h2><p>Watch for these warning signs in your pet:</p><ul><li>Bad breath</li><li>Red, swollen, or bleeding gums</li><li>Difficulty eating or dropping food</li><li>Pawing at the mouth</li><li>Loose or discolored teeth</li><li>Excessive drooling</li></ul><p>We recommend annual dental evaluations as part of your pet's wellness visit.</p>",
+            "summary": "Dental disease is one of the most common health problems in pets, affecting over 80% of dogs and 70% of cats by age three. Left untreated, dental disease causes pain, difficulty eating, and can lead t"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+            "alt": "Veterinarian gently examining a dog's teeth",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Professional dental cleanings, digital X-rays, and oral surgery to keep your pet's teeth and gums healthy.</p>",
+            "summary": "Professional dental cleanings, digital X-rays, and oral surgery to keep your pet's teeth and gums healthy."
+          },
+          "petTypes": [
+            "Dogs",
+            "Cats"
+          ],
+          "serviceCategory": [
+            {
+              "id": "Dentistry",
+              "name": "Dentistry"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

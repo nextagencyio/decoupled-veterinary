@@ -1,0 +1,193 @@
+{
+  "data": {
+    "nodePetResources": {
+      "__typename": "NodePetResourceConnection",
+      "nodes": [
+        {
+          "__typename": "NodePetResource",
+          "id": "resource-puppy-guide",
+          "title": "The Complete New Puppy Owner's Guide",
+          "path": "/resources/new-puppy-owners-guide",
+          "body": {
+            "processed": "<p>Congratulations on your new puppy! Bringing a puppy into your home is one of life's great joys, but it also comes with responsibilities. This guide covers everything you need to know to give your new companion the best possible start.</p><h2>First Veterinary Visit</h2><p>Schedule your puppy's first veterinary exam within the first week of bringing them home. Even if your breeder or shelter provided initial vaccinations, your veterinarian needs to perform a comprehensive health assessment and create a customized preventive care plan.</p><h2>Vaccination Schedule</h2><ul><li><strong>6-8 weeks:</strong> Distemper, parvovirus (first dose)</li><li><strong>10-12 weeks:</strong> DHPP booster, Bordetella</li><li><strong>14-16 weeks:</strong> DHPP final booster, rabies</li><li><strong>12-16 weeks:</strong> Leptospirosis, Lyme (based on lifestyle risk)</li></ul><h2>Nutrition</h2><p>Feed a high-quality puppy food appropriate for your dog's expected adult size. Large breed puppies require diets formulated to support controlled growth and joint health. Feed three meals a day until six months of age, then transition to twice daily.</p><h2>Socialization</h2><p>The critical socialization window closes around 16 weeks of age. Safely expose your puppy to a variety of people, animals, sounds, and environments during this period to help them grow into a confident, well-adjusted adult dog.</p>",
+            "summary": "Congratulations on your new puppy! Bringing a puppy into your home is one of life's great joys, but it also comes with responsibilities. This guide covers everything you need to know to give your new "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+            "alt": "Adorable puppy sitting on a grassy lawn",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Everything new puppy owners need to know about veterinary care, vaccinations, nutrition, and socialization.</p>",
+            "summary": "Everything new puppy owners need to know about veterinary care, vaccinations, nutrition, and socialization."
+          },
+          "petType": [
+            {
+              "id": "Dogs",
+              "name": "Dogs"
+            }
+          ],
+          "resourceCategory": [
+            {
+              "id": "New Pet Owner",
+              "name": "New Pet Owner"
+            },
+            {
+              "id": "Health & Wellness",
+              "name": "Health & Wellness"
+            }
+          ],
+          "authorName": "Dr. Sofia Martinez",
+          "publishedDate": {
+            "timestamp": 1760504400
+          }
+        },
+        {
+          "__typename": "NodePetResource",
+          "id": "resource-cat-indoor",
+          "title": "Keeping Your Indoor Cat Happy and Healthy",
+          "path": "/resources/keeping-indoor-cats-happy",
+          "body": {
+            "processed": "<p>Indoor cats live significantly longer than outdoor cats, but they need environmental enrichment to stay physically and mentally healthy. A bored indoor cat can develop behavior problems, obesity, and stress-related illnesses. Here's how to create a stimulating indoor environment.</p><h2>Environmental Enrichment</h2><ul><li><strong>Vertical space:</strong> Cat trees, shelves, and window perches satisfy your cat's natural desire to climb and survey their territory from above</li><li><strong>Window views:</strong> Place perches near windows so your cat can watch birds, squirrels, and outdoor activity</li><li><strong>Scratching surfaces:</strong> Provide multiple scratching posts and pads in both vertical and horizontal orientations</li><li><strong>Hiding spots:</strong> Cardboard boxes, cat tunnels, and covered beds give cats a sense of security</li></ul><h2>Interactive Play</h2><p>Dedicate at least 15-20 minutes twice a day to interactive play with wand toys, laser pointers, or feather toys. This simulates the hunt-catch-eat cycle and provides essential exercise.</p><h2>Food Puzzles</h2><p>Replace your cat's food bowl with puzzle feeders to stimulate their brain and slow down eating. Start with easy puzzles and increase the difficulty as your cat gets the hang of it.</p><h2>Multi-Cat Households</h2><p>If you have multiple cats, provide at least one litter box per cat plus one extra, separate feeding stations, and enough vertical space so every cat has access to high perching spots.</p>",
+            "summary": "Indoor cats live significantly longer than outdoor cats, but they need environmental enrichment to stay physically and mentally healthy. A bored indoor cat can develop behavior problems, obesity, and "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+            "alt": "Content tabby cat relaxing on a sunny window perch",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Tips for creating a stimulating indoor environment that keeps your cat physically active and mentally engaged.</p>",
+            "summary": "Tips for creating a stimulating indoor environment that keeps your cat physically active and mentally engaged."
+          },
+          "petType": [
+            {
+              "id": "Cats",
+              "name": "Cats"
+            }
+          ],
+          "resourceCategory": [
+            {
+              "id": "Behavior",
+              "name": "Behavior"
+            },
+            {
+              "id": "Health & Wellness",
+              "name": "Health & Wellness"
+            }
+          ],
+          "authorName": "Dr. Sofia Martinez",
+          "publishedDate": {
+            "timestamp": 1764568800
+          }
+        },
+        {
+          "__typename": "NodePetResource",
+          "id": "resource-summer-safety",
+          "title": "Summer Safety Tips for Pet Owners",
+          "path": "/resources/summer-pet-safety",
+          "body": {
+            "processed": "<p>Summer brings special hazards for our pets. From heatstroke to toxic plants, here are the most important things to know to keep your animals safe during the warm months.</p><h2>Preventing Heatstroke</h2><ul><li>Never leave your pet in a parked car, even with windows cracked - interior temperatures can reach lethal levels in minutes</li><li>Walk dogs during cooler morning and evening hours</li><li>Test pavement with the back of your hand - if it's too hot for you, it's too hot for paw pads</li><li>Provide constant access to fresh, cool water</li><li>Watch for signs of overheating: excessive panting, drooling, lethargy, vomiting</li></ul><h2>Water Safety</h2><p>Not all dogs are natural swimmers. Always supervise your pet around pools, lakes, and oceans. Consider a pet life jacket for boating. Rinse your dog after swimming to remove chlorine, salt, or algae.</p><h2>Fleas, Ticks & Heartworm</h2><p>Summer is peak season for parasites. Ensure your pet is current on flea, tick, and heartworm prevention. Check for ticks after every outdoor adventure, paying special attention to ears, armpits, and between toes.</p><h2>Toxic Plants & Foods</h2><p>Many common summer foods and plants are toxic to pets. Keep your animals away from grapes, onions, chocolate, xylitol (artificial sweetener), lilies, sago palms, and mushrooms that may grow in your yard.</p>",
+            "summary": "Summer brings special hazards for our pets. From heatstroke to toxic plants, here are the most important things to know to keep your animals safe during the warm months.Preventing HeatstrokeNever leav"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=800&q=80",
+            "alt": "Dog cooling off by splashing in a shallow stream",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Essential tips for protecting your pet from heatstroke, parasites, and other summer hazards.</p>",
+            "summary": "Essential tips for protecting your pet from heatstroke, parasites, and other summer hazards."
+          },
+          "petType": [
+            {
+              "id": "Dogs",
+              "name": "Dogs"
+            },
+            {
+              "id": "Cats",
+              "name": "Cats"
+            }
+          ],
+          "resourceCategory": [
+            {
+              "id": "Seasonal Care",
+              "name": "Seasonal Care"
+            },
+            {
+              "id": "Health & Wellness",
+              "name": "Health & Wellness"
+            }
+          ],
+          "authorName": "Dr. Emeka Okafor",
+          "publishedDate": {
+            "timestamp": 1768888800
+          }
+        }
+      ]
+    }
+  }
+}

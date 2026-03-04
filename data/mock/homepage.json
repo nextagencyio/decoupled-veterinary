@@ -1,0 +1,85 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Pawsitive Care Veterinary Clinic",
+          "path": "/homepage",
+          "heroTitle": "Compassionate Care for Your Best Friend",
+          "heroSubtitle": "Pawsitive Care Veterinary Clinic",
+          "heroDescription": {
+            "processed": "<p>Your pet is family, and they deserve the best. Our team of experienced veterinarians and technicians provides comprehensive, compassionate care for dogs, cats, birds, rabbits, and exotic pets in a fear-free environment.</p>",
+            "summary": "Your pet is family, and they deserve the best. Our team of experienced veterinarians and technicians provides comprehensive, compassionate care for dogs, cats, birds, rabbits, and exotic pets in a fea"
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
+            "alt": "Happy golden retriever and border collie playing in a park",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-pets",
+              "title": "",
+              "number": "20,000+",
+              "label": "Pets Treated"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "18",
+              "label": "Years Serving Our Community"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-team",
+              "title": "",
+              "number": "15",
+              "label": "Dedicated Team Members"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-rating",
+              "title": "",
+              "number": "4.9",
+              "label": "Average Star Rating"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Book Your Pet's Visit",
+          "ctaDescription": {
+            "processed": "<p>Whether it's time for a routine checkup, vaccinations, or you have concerns about your pet's health, we're here to help. New clients and their furry, feathered, or scaled companions are always welcome.</p>",
+            "summary": "Whether it's time for a routine checkup, vaccinations, or you have concerns about your pet's health, we're here to help. New clients and their furry, feathered, or scaled companions are always welcome"
+          },
+          "ctaPrimary": "Schedule Appointment",
+          "ctaSecondary": "Emergency Care"
+        }
+      ]
+    }
+  }
+}
