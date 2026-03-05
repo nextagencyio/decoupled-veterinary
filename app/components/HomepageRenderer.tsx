@@ -7,6 +7,7 @@ import StatsSection from './StatsSection'
 import CTASection from './CTASection'
 import ErrorBoundary from './ErrorBoundary'
 import { DrupalHomepage } from '@/lib/types'
+import { PawPrint, ShieldCheck, Stethoscope } from 'lucide-react'
 
 interface HomepageRendererProps {
   homepageContent: DrupalHomepage | null | undefined
@@ -18,6 +19,29 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       <Header />
       <ErrorBoundary><HeroSection homepageContent={homepageContent} /></ErrorBoundary>
       <ErrorBoundary><StatsSection homepageContent={homepageContent} /></ErrorBoundary>
+
+      <section className="py-16 bg-white border-y border-primary-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-display text-primary-900 mb-3">Care Designed for Every Pet</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">From preventive wellness to advanced treatment plans, our team supports every stage of pet health.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { icon: Stethoscope, title: 'Preventive Care', text: 'Wellness exams, vaccinations, diagnostics, and personalized health plans.' },
+              { icon: ShieldCheck, title: 'Urgent Services', text: 'Same-day triage and compassionate treatment for acute illnesses and injuries.' },
+              { icon: PawPrint, title: 'Pet Family Support', text: 'Nutrition guidance, behavior support, and proactive owner education.' },
+            ].map((item) => (
+              <div key={item.title} className="bg-gray-50 border border-primary-100 rounded-xl p-6">
+                <item.icon className="w-6 h-6 text-primary-700 mb-3" />
+                <h3 className="text-lg font-semibold text-primary-900 mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm">{item.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <ErrorBoundary><CTASection homepageContent={homepageContent} /></ErrorBoundary>
 
       <footer className="bg-primary-900 text-white py-12">
