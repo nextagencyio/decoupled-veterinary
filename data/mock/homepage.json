@@ -45,28 +45,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-pets",
               "title": "",
-              "number": "20,000+",
+              "number": "20,000+", "value": "20,000+",
               "label": "Pets Treated"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "18",
+              "number": "18", "value": "18",
               "label": "Years Serving Our Community"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-team",
               "title": "",
-              "number": "15",
+              "number": "15", "value": "15",
               "label": "Dedicated Team Members"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-rating",
               "title": "",
-              "number": "4.9",
+              "number": "4.9", "value": "4.9",
               "label": "Average Star Rating"
             }
           ],
