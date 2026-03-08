@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import PetResourceCard from '../components/PetResourceCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Pet Resources | Veterinary',
