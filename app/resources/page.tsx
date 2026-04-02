@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getPetResources() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_PET_RESOURCE_TEASERS, { first: 50 })
+    const data = await client.raw(GET_PET_RESOURCE_TEASERS, { first: 50 })
     return data?.nodePetResources?.nodes || []
   } catch (error) {
     console.error('Error fetching pet resources:', error)
@@ -55,7 +55,7 @@ export default async function PetResourcesPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <PetResourceCard key={item.id} item={item} />
               ))}
             </div>
