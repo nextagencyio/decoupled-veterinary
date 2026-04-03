@@ -20,38 +20,60 @@ export interface DrupalNode {
   path: string
   created: { timestamp: number }
   changed: { timestamp: number }
+  __typename?: string
+}
+
+export interface TaxonomyTerm {
+  id: string
+  name: string
 }
 
 export interface DrupalService extends DrupalNode {
   body?: { processed: string; summary?: string }
-  animalTypes?: string
-  priceRange?: string
-  image?: { url: string; alt?: string; width?: number; height?: number; variations?: Array<{ name: string; url: string; width: number; height: number }> }
+  petTypes?: string[]
+  summary?: { processed: string }
+  serviceCategory?: TaxonomyTerm[]
+  image?: DrupalImage
 }
 
 export interface DrupalProvider extends DrupalNode {
   body?: { processed: string }
+  credentials?: string
   specialty?: string
-  email?: string
-  phone?: string
-  photo?: { url: string; alt?: string; width?: number; height?: number; variations?: Array<{ name: string; url: string; width: number; height: number }> }
   education?: { processed: string }
+  favoriteAnimals?: string
+  acceptingPatients?: boolean
+  providerRole?: TaxonomyTerm[]
+  image?: DrupalImage
 }
 
 export interface DrupalPetResource extends DrupalNode {
   body?: { processed: string; summary?: string }
-  resourceCategory?: string
-  image?: { url: string; alt?: string; width?: number; height?: number; variations?: Array<{ name: string; url: string; width: number; height: number }> }
+  summary?: { processed: string }
+  authorName?: string
+  publishedDate?: { timestamp: number }
+  petType?: TaxonomyTerm[]
+  resourceCategory?: TaxonomyTerm[]
+  image?: DrupalImage
 }
 
 export interface DrupalPage extends DrupalNode {
   body?: { processed: string }
 }
 
+export interface ParagraphStatItem {
+  id: string
+  number: string
+  label: string
+}
+
 export interface DrupalHomepage extends DrupalNode {
   heroTitle?: string
   heroSubtitle?: string
   heroDescription?: { processed: string }
+  heroImage?: DrupalImage
+  statsItems?: ParagraphStatItem[]
+  featuredItemsTitle?: string
   featuresTitle?: string
   featuresSubtitle?: string
   featuresItems?: DrupalFeature[]

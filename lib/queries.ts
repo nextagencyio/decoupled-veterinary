@@ -9,7 +9,9 @@ export const GET_SERVICE_TEASERS = gql`
         created { timestamp } changed { timestamp }
         ... on NodeService {
           body { processed summary }
-          animalTypes priceRange
+          petTypes
+          summary { processed }
+          serviceCategory { ... on TermServiceCategory { id name } }
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
         }
       }
@@ -25,9 +27,13 @@ export const GET_PROVIDER_TEASERS = gql`
         created { timestamp } changed { timestamp }
         ... on NodeProvider {
           body { processed }
-          specialty email phone
-          photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+          credentials
+          specialty
           education { processed }
+          favoriteAnimals
+          acceptingPatients
+          providerRole { ... on TermProviderRole { id name } }
+          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
         }
       }
     }
@@ -42,7 +48,11 @@ export const GET_PET_RESOURCE_TEASERS = gql`
         created { timestamp } changed { timestamp }
         ... on NodePetResource {
           body { processed summary }
-          resourceCategory
+          summary { processed }
+          authorName
+          publishedDate { timestamp }
+          petType { ... on TermPetType { id name } }
+          resourceCategory { ... on TermResourceCategory { id name } }
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
         }
       }
@@ -59,12 +69,12 @@ export const GET_HOMEPAGE_DATA = gql`
         path
         heroTitle
         heroSubtitle
-        heroDescription { processed summary }
+        heroDescription { processed }
         heroImage { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-        statsItems { ... on ParagraphStatItem { id title description { processed } icon } }
+        statsItems { ... on ParagraphStatItem { id number label } }
         featuredItemsTitle
         ctaTitle
-        ctaDescription { processed summary }
+        ctaDescription { processed }
         ctaPrimary
         ctaSecondary
       }
@@ -77,27 +87,36 @@ export const GET_NODE_BY_PATH = gql`
     route(path: $path) {
       ... on RouteInternal {
         entity {
-          ... on NodePage { id title body { processed } }
+          ... on NodePage { __typename id title body { processed } }
           ... on NodeService {
-            id title body { processed }
-            animalTypes priceRange
+            __typename id title body { processed }
+            petTypes
+            summary { processed }
+            serviceCategory { ... on TermServiceCategory { id name } }
             image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
           ... on NodeProvider {
-            id title body { processed }
-            specialty email phone
-            photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            __typename id title body { processed }
+            credentials specialty
             education { processed }
+            favoriteAnimals acceptingPatients
+            providerRole { ... on TermProviderRole { id name } }
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
           ... on NodePetResource {
-            id title body { processed }
-            resourceCategory
+            __typename id title body { processed }
+            summary { processed }
+            authorName
+            publishedDate { timestamp }
+            petType { ... on TermPetType { id name } }
+            resourceCategory { ... on TermResourceCategory { id name } }
             image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
           ... on NodeHomepage {
-            id title heroTitle heroSubtitle heroDescription { processed }
-            featuresTitle featuresSubtitle
-            featuresItems { ... on ParagraphFeatureItem { id title description { processed } icon } }
+            __typename id title heroTitle heroSubtitle heroDescription { processed }
+            heroImage { url alt width height }
+            statsItems { ... on ParagraphStatItem { id number label } }
+            featuredItemsTitle
             ctaTitle ctaDescription { processed } ctaPrimary ctaSecondary
           }
         }
